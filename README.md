@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://i.ibb.co/Xz9wK7F/wondermayank-logo.png" width="150" style="border-radius: 50%; border: 5px solid #c8a2ff; box-shadow: 0 0 50px rgba(200, 162, 255, 0.6);" />
+<img src="https://i.pinimg.com/1200x/72/11/17/721117f3130a87778647a91cbc62a9a6.jpg" width="150" style="border-radius: 50%; border: 5px solid #c8a2ff; box-shadow: 0 0 50px rgba(200, 162, 255, 0.6);" />
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png" width="40" /> `WONDERMAYANK.HUB`
+# ✨ `WONDERMAYANK.HUB`
 
 ### **The Digital Architecture of Innovation & Elegance**
 
@@ -32,7 +32,7 @@
 
 ## 🛠️ **THE ECOSYSTEM**
 
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="25" /> PRODUCT | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Label.png" width="25" /> SPECIALIZATION | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Link.png" width="25" /> ACCESS |
+| PRODUCT | SPECIALIZATION | ACCESS |
 | :--- | :--- | :--- |
 | **ANIME FINDER** | *Interactive API-driven Database* | [Visit ➔](https://wondermayank.github.io/anime) |
 | **CARD GENERATOR** | *Dynamic Birthday/Wedding Utils* | [Visit ➔](https://wondermayank.github.io/card) |
