@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/Xz9wK7F/wondermayank-logo.png" width="120" height="120" style="border-radius: 50%; border: 4px solid #c8a2ff; box-shadow: 0 10px 30px rgba(200, 162, 255, 0.4);" />
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png" width="35" /> Wondermayank Index
+# <img src="[https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png](https://i.pinimg.com/1200x/72/11/17/721117f3130a87778647a91cbc62a9a6.jpg)" width="35" /> Wondermayank Index
 
 ### *Where Innovation Meets Elegance*
 
