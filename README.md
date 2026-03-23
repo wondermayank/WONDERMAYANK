@@ -31,22 +31,61 @@
 ---
 
 ## 🛠️ **THE ECOSYSTEM**
+> *A collection of high-performance digital tools.*
 
-| PRODUCT | SPECIALIZATION | ACCESS |
-| :--- | :--- | :--- |
-| **ANIME FINDER** | *Interactive API-driven Database* | [Visit ➔](https://wondermayank.github.io/anime) |
-| **CARD GENERATOR** | *Dynamic Birthday/Wedding Utils* | [Visit ➔](https://wondermayank.github.io/card) |
-| **CBT MOCK** | *Exam Simulation Engine* | [Visit ➔](https://wondermayank.github.io/cbtmock) |
-| **PALETTEIFY** | *Design-first Color Generator* | [Visit ➔](https://wondermayank.github.io/paletteify) |
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="50%" align="left" style="border: 1px solid #c8a2ff; border-radius: 20px; padding: 20px; background: rgba(200, 162, 255, 0.05);">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Clapper%20Board.png" width="40" /><br>
+        <b>ANIME FINDER</b><br>
+        <p style="font-size: 12px; color: #666;">Interactive API-driven Database</p>
+        <a href="https://wondermayank.github.io/anime"><b>Launch App ➔</b></a>
+      </td>
+      <td width="50%" align="left" style="border: 1px solid #aeefff; border-radius: 20px; padding: 20px; background: rgba(174, 239, 255, 0.05);">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" width="40" /><br>
+        <b>CARD GENERATOR</b><br>
+        <p style="font-size: 12px; color: #666;">Dynamic Birthday/Wedding Utils</p>
+        <a href="https://wondermayank.github.io/card"><b>Launch App ➔</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="left" style="border: 1px solid #aeefff; border-radius: 20px; padding: 20px; background: rgba(174, 239, 255, 0.05);">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Memo.png" width="40" /><br>
+        <b>CBT MOCK</b><br>
+        <p style="font-size: 12px; color: #666;">Exam Simulation Engine</p>
+        <a href="https://wondermayank.github.io/cbtmock"><b>Launch App ➔</b></a>
+      </td>
+      <td width="50%" align="left" style="border: 1px solid #c8a2ff; border-radius: 20px; padding: 20px; background: rgba(200, 162, 255, 0.05);">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Artist%20Palette.png" width="40" /><br>
+        <b>PALETTEIFY</b><br>
+        <p style="font-size: 12px; color: #666;">Design-first Color Generator</p>
+        <a href="https://wondermayank.github.io/paletteify"><b>Launch App ➔</b></a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ## ⚡ **TECH STACK DEPLOYMENT**
 
+<div align="left">
+  <img src="https://img.shields.io/badge/Main-Javascript-yellow?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Style-CSS3-blue?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Deploy-GitHub_Pages-black?style=for-the-badge&logo=github&logoColor=white" />
+</div>
+
 ```javascript
-const Wondermayank = {
-    Frontend: ["HTML5", "CSS3", "Modern-JS"],
-    Styling:  ["Glassmorphism", "Bento-Grid", "VisionOS"],
-    Hosting:  ["GitHub Pages", "Thunder-Server"],
-    Performance: "60FPS / Zero-Bloat"
+/* Wondermayank System Architecture
+   Status: Optimized | 60FPS Fluidity 
+*/
+
+const System = {
+    UI:      ["Glassmorphism", "VisionOS", "Bento-Grid"],
+    Core:    ["Vanilla-JS", "HTML5", "CSS-Grid"],
+    Server:  ["GitHub Pages", "Thunder-CDN"],
+    Metric:  "Zero-Bloat Deployment"
 };
+
+console.log("System Initialized... ✨");
