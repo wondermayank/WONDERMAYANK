@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wondermayank ✨ | Premium Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #c8a2ff;
+            --secondary: #aeefff;
+            --bg-start: #fdfbff;
+            --bg-end: #ebfaff;
+            --glass: rgba(255, 255, 255, 0.35);
+            --glass-border: rgba(255, 255, 255, 0.5);
+            --text-main: #1d1d1f;
+            --text-muted: #86868b;
+            --ease: cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'SF Pro Display', sans-serif; }
+        body { background: linear-gradient(135deg, var(--bg-start), var(--bg-end)); color: var(--text-main); overflow-x: hidden; scroll-behavior: smooth; }
+
+        #cursor-glow { position: fixed; width: 350px; height: 350px; background: radial-gradient(circle, rgba(200,162,255,0.1) 0%, rgba(174,239,255,0) 70%); border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%); z-index: 0; }
+
+        nav { position: fixed; top: 0; width: 100%; height: 75px; padding: 0 10%; display: flex; justify-content: space-between; align-items: center; background: var(--glass); backdrop-filter: blur(25px); -webkit-backdrop-filter: blur(25px); border-bottom: 1px solid var(--glass-border); z-index: 1000; }
+        .logo-container { display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit; }
+        .logo-img { height: 45px; width: 45px; border-radius: 50%; border: 2px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .nav-title { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.5px; }
+        .nav-links { display: flex; gap: 2.5rem; }
+        .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; font-size: 0.9rem; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--primary); }
+
+        .hero { height: 90vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative; padding: 0 2rem; margin-top: 75px; }
+        .hero h1 { font-size: 4rem; font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem; letter-spacing: -2px; }
+        .hero p { font-size: 1.3rem; color: var(--text-muted); max-width: 600px; margin-bottom: 3rem; font-weight: 300; }
+        .cta-btn { padding: 1rem 3rem; border-radius: 50px; background: linear-gradient(135deg, var(--primary), #b085ff); color: white; border: none; font-size: 1rem; font-weight: 600; cursor: pointer; transition: 0.4s var(--ease); box-shadow: 0 10px 30px rgba(200,162,255,0.4); }
+        .cta-btn:hover { transform: translateY(-5px) scale(1.05); box-shadow: 0 15px 40px rgba(200,162,255,0.6); }
+
+        .main-container { max-width: 1400px; margin: 0 auto; padding: 5rem 2rem; }
+        .section-header { text-align: center; margin-bottom: 4rem; }
+        .section-header h2 { font-size: 2.5rem; font-weight: 700; letter-spacing: -1px; }
+        .section-header p { font-size: 1rem; color: var(--text-muted); margin-top: 0.6rem; font-weight: 400; }
+
+        /* =============================================
+           FIX 1: GITHUB CREATIONS — ORIGINAL STYLE
+        ============================================= */
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2.5rem; }
+
+        .project-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: 28px; padding: 2.5rem; transition: 0.5s var(--ease); backdrop-filter: blur(15px); position: relative; overflow: hidden; transform-style: preserve-3d; cursor: default; }
+        .project-card:hover { border-color: var(--primary); box-shadow: 0 30px 60px rgba(0,0,0,0.06); }
+        .project-card::after { content:''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 60%); opacity: 0; transition: opacity 0.5s; pointer-events: none; }
+        .project-card:hover::after { opacity: 1; }
+        .proj-icon { font-size: 2.5rem; margin-bottom: 1.5rem; display: block; opacity: 0.9; }
+        .project-card h3 { font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; color: var(--text-main); }
+        .project-card p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 2rem; height: 60px; overflow: hidden; }
+        .open-btn { display: inline-block; font-weight: 600; color: var(--primary); text-decoration: none; transition: 0.3s; }
+        .open-btn:hover { letter-spacing: 1px; }
+        .project-visual { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 4px 10px; border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+        /* =============================================
+           FIX 2: EXPLORE MORE HUBS — PREMIUM UPGRADE
+        ============================================= */
+        .explore-hubs-section { margin-top: 8rem; }
+
+        .hubs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+
+        .hub-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 28px;
+            padding: 2.5rem;
+            text-decoration: none;
+            color: var(--text-main);
+            backdrop-filter: blur(15px);
+            overflow: hidden;
+            transition: 0.5s var(--ease);
+            transform-style: preserve-3d;
+        }
+        .hub-card::before {
+            content: '';
+            position: absolute;
+            bottom: -50px; right: -50px;
+            width: 180px; height: 180px;
+            border-radius: 50%;
+            opacity: 0;
+            filter: blur(55px);
+            transition: opacity 0.5s;
+            pointer-events: none;
+        }
+        .hub-card:nth-child(1)::before { background: #c8a2ff; }
+        .hub-card:nth-child(2)::before { background: #a2d4ff; }
+        .hub-card:nth-child(3)::before { background: #a2ffc8; }
+        .hub-card:hover::before { opacity: 0.4; }
+        .hub-card::after { content:''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0) 60%); opacity: 0; transition: opacity 0.5s; pointer-events: none; }
+        .hub-card:hover::after { opacity: 1; }
+        .hub-card:hover { border-color: rgba(200,162,255,0.55); box-shadow: 0 30px 70px rgba(200,162,255,0.13); }
+
+        .hub-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 2rem; }
+        .hub-icon-wrap { width: 62px; height: 62px; border-radius: 18px; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; background: linear-gradient(135deg, rgba(200,162,255,0.22), rgba(174,239,255,0.22)); border: 1px solid rgba(255,255,255,0.7); box-shadow: 0 4px 14px rgba(200,162,255,0.18); flex-shrink: 0; }
+        .hub-platform-badge { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; color: white; padding: 4px 11px; border-radius: 20px; background: linear-gradient(135deg, var(--primary), var(--secondary)); box-shadow: 0 4px 10px rgba(200,162,255,0.25); white-space: nowrap; }
+        .hub-card h3 { font-size: 1.45rem; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 0.8rem; }
+        .hub-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.65; flex: 1; margin-bottom: 2rem; }
+        .hub-visit-btn { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 0.9rem; color: var(--primary); transition: gap 0.3s var(--ease); }
+        .hub-card:hover .hub-visit-btn { gap: 16px; }
+        .arrow-circle { width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), #b085ff); color: white; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; box-shadow: 0 4px 10px rgba(200,162,255,0.4); transition: transform 0.35s var(--ease); flex-shrink: 0; }
+        .hub-card:hover .arrow-circle { transform: rotate(-45deg); }
+
+        /* =============================================
+           FIX 3 & 4: CHANNELS — INDIVIDUAL TILE CARDS
+        ============================================= */
+        .channels-section { margin-top: 8rem; }
+        .channels-platform-group { margin-bottom: 4.5rem; }
+
+        .platform-label-row { display: flex; align-items: center; gap: 14px; margin-bottom: 2.2rem; }
+        .platform-logo { width: 44px; height: 44px; border-radius: 13px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; border: 1px solid rgba(255,255,255,0.7); flex-shrink: 0; }
+        .platform-logo.yt { background: linear-gradient(135deg, rgba(255,107,107,0.2), rgba(255,0,0,0.13)); }
+        .platform-logo.ig { background: linear-gradient(135deg, rgba(240,148,51,0.2), rgba(188,24,136,0.13)); }
+        .platform-label-row h3 { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.3px; }
+        .platform-label-row span { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; display: block; margin-top: 2px; }
+
+        .channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem; }
+
+        .channel-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 2rem;
+            text-decoration: none;
+            color: var(--text-main);
+            backdrop-filter: blur(15px);
+            position: relative;
+            overflow: hidden;
+            transition: 0.5s var(--ease);
+            transform-style: preserve-3d;
+            display: flex;
+            flex-direction: column;
+        }
+        .channel-card::after { content:''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 60%); opacity: 0; transition: opacity 0.5s; pointer-events: none; }
+        .channel-card:hover::after { opacity: 1; }
+        .channel-card:hover { border-color: var(--primary); box-shadow: 0 25px 55px rgba(0,0,0,0.06); }
+
+        .ch-platform-tag { position: absolute; top: 1.4rem; right: 1.4rem; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; padding: 3px 10px; border-radius: 20px; }
+        .ch-platform-tag.yt { background: rgba(255,0,0,0.1); color: #cc0000; border: 1px solid rgba(255,0,0,0.18); }
+        .ch-platform-tag.ig { background: rgba(188,24,136,0.1); color: #bc1888; border: 1px solid rgba(188,24,136,0.18); }
+
+        .ch-card-icon { font-size: 2.2rem; margin-bottom: 1.2rem; display: block; }
+        .channel-card h3 { font-size: 1.15rem; font-weight: 700; letter-spacing: -0.3px; margin-bottom: 0.6rem; }
+        .channel-card p { font-size: 0.87rem; color: var(--text-muted); line-height: 1.6; flex: 1; margin-bottom: 1.6rem; }
+        .ch-open-btn { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; font-size: 0.88rem; color: var(--primary); transition: gap 0.3s var(--ease); }
+        .channel-card:hover .ch-open-btn { gap: 11px; }
+
+        /* BG Shapes */
+        .shape { position: fixed; z-index: -1; filter: blur(70px); opacity: 0.3; border-radius: 50%; }
+        .s1 { width: 400px; height: 400px; background: var(--primary); top: -100px; left: -100px; animation: float1 25s infinite; }
+        .s2 { width: 300px; height: 300px; background: var(--secondary); bottom: -50px; right: -50px; animation: float1 20s infinite reverse; }
+        @keyframes float1 { 0%, 100% { transform: translate(0,0); } 50% { transform: translate(50px,50px); } }
+
+        footer { margin-top: 8rem; padding: 4rem 10%; background: var(--glass); backdrop-filter: blur(25px); border-top: 1px solid var(--glass-border); text-align: center; }
+        .footer-logo { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 1.5rem; }
+        .f-tag { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 2px; font-weight: 600; margin-bottom: 0.5rem; }
+
+        @media (max-width: 900px) { .hubs-grid { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.8rem; } .nav-links { display: none; } .hubs-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<div id="cursor-glow"></div>
+<div class="shape s1"></div>
+<div class="shape s2"></div>
+
+<nav>
+    <a href="#" class="logo-container">
+        <img src="https://i.pinimg.com/1200x/72/11/17/721117f3130a87778647a91cbc62a9a6.jpg" alt="Wondermayank WM Logo" class="logo-img">
+        <span class="nav-title">Wondermayank ✨</span>
+    </a>
+    <div class="nav-links">
+        <a href="#catalog">Projects</a>
+        <a href="#hubs">Hubs</a>
+        <a href="#channels">Channels</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Digital Works,<br>Curated by Mayank.</h1>
+    <p>A central hub for exploring my tools, creations, and artistic projects hosted on GitHub. Step into a world of minimal design and smooth interaction.</p>
+    <button class="cta-btn" onclick="document.getElementById('catalog').scrollIntoView({behavior:'smooth'})">Explore Catalogue</button>
+</section>
+
+<div class="main-container">
+
+    <!-- FIX 1: GitHub Creations original -->
+    <section id="catalog">
+        <div class="section-header">
+            <h2>GitHub Creations Catalogue</h2>
+            <p>Tools and projects hosted on GitHub Pages.</p>
+        </div>
+        <div class="projects-grid" id="project-list"></div>
+    </section>
+
+    <!-- FIX 2: Explore More Hubs premium -->
+    <section class="explore-hubs-section" id="hubs">
+        <div class="section-header">
+            <h2>Explore More Hubs</h2>
+            <p>More of my digital spaces across the web.</p>
+        </div>
+        <div class="hubs-grid" id="hubs-grid"></div>
+    </section>
+
+    <!-- FIX 3 & 4: Channel tiles with descriptions -->
+    <section class="channels-section" id="channels">
+        <div class="section-header">
+            <h2>Other Channels</h2>
+            <p>Follow along across platforms for more content.</p>
+        </div>
+
+        <div class="channels-platform-group">
+            <div class="platform-label-row">
+                <div class="platform-logo yt">▶️</div>
+                <div>
+                    <h3>YouTube Channels</h3>
+                    <span>7 Channels</span>
+                </div>
+            </div>
+            <div class="channels-grid" id="yt-grid"></div>
+        </div>
+
+        <div class="channels-platform-group">
+            <div class="platform-label-row">
+                <div class="platform-logo ig">📸</div>
+                <div>
+                    <h3>Instagram Handles</h3>
+                    <span>5 Profiles</span>
+                </div>
+            </div>
+            <div class="channels-grid" id="ig-grid"></div>
+        </div>
+
+    </section>
+
+</div>
+
+<footer>
+    <div class="footer-logo">
+        <img src="https://i.pinimg.com/1200x/72/11/17/721117f3130a87778647a91cbc62a9a6.jpg" alt="WM Logo" class="logo-img">
+        <span class="nav-title">Wondermayank ✨</span>
+    </div>
+    <div style="margin-top: 1rem;">
+        <p class="f-tag">DESIGN & CURATION BY WONDERMAYANK</p>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">© 2018 @wondermayank</p>
+    </div>
+</footer>
+
+<script>
+const mainProjectsData = [
+    { title: "ANIME Finder",    desc: "Discover anime series and more. Powered by modern Jikan API.",                      link: "https://wondermayank.github.io/anime",        icon: "🎬", visualTag: "MEDIA" },
+    { title: "MOVIE Finder",    desc: "Search and explore movie databases. Get instant details and trends.",                link: "https://wondermayank.github.io/movie",        icon: "🍿", visualTag: "CINEMA" },
+    { title: "BOOKS Hub",       desc: "Your personal library explorer. Find books by title, author, or genre.",             link: "https://wondermayank.github.io/book",         icon: "📚", visualTag: "KNOWLEDGE" },
+    { title: "CARD Generator",  desc: "Create dynamic digital cards for weddings, birthdays, and events with share links.", link: "https://wondermayank.github.io/card",         icon: "✉️", visualTag: "UTILITY" },
+    { title: "TEXT to PDF",     desc: "Simple tool to convert plain text documents into professionally formatted PDFs.",    link: "https://wondermayank.github.io/pdftotext",    icon: "📄", visualTag: "TOOL" },
+    { title: "CBT MOCK Test",   desc: "Computer-Based Test simulation platform for practicing entrance exams.",             link: "https://wondermayank.github.io/cbtmock",      icon: "📝", visualTag: "EDUCATION" },
+    { title: "Love Website",    desc: "A creative digital space focusing on connection and affectionate themes.",            link: "https://wondermayank.github.io/love",         icon: "❤️", visualTag: "CREATIVE" },
+    { title: "CODE Helper",     desc: "Curated coding tools and utilities for developers. Fast, minimal snippets.",         link: "https://wondermayank.github.io/code",         icon: "💻", visualTag: "DEVELOPER" },
+    { title: "Paletteify",      desc: "Generate aesthetic color palettes instantly. Discover unique harmonious gradients.", link: "https://wondermayank.github.io/paletteify",   icon: "🎨", visualTag: "DESIGN" },
+    { title: "HELP Tool",       desc: "A comprehensive utility tool offering various daily helpers.",                       link: "https://wondermayank.github.io/help",         icon: "❓", visualTag: "GUIDE" }
+];
+
+const hubsData = [
+    { icon: "⚡", badge: "GitHub Pages", title: "Thundertechnology",  desc: "Tech tools, experiments, and developer utilities hosted on GitHub Pages.",               link: "https://wondermayank.github.io/thundrtechnology" },
+    { icon: "📖", badge: "Blogspot",      title: "Thunderstudy Main", desc: "The main study blog — structured notes, resources, and educational content.",            link: "https://commercesehoga.blogspot.com/" },
+    { icon: "🎓", badge: "GitHub Pages", title: "Commerce Se Hoga",   desc: "Commerce education hub with organized guides, tips, and CBSE exam resources.",          link: "https://commercesehoga.github.io/" }
+];
+
+const ytChannels = [
+    { icon: "🌟", title: "Wondermayank",        desc: "Main channel — vlogs, opinions, and all-around content.",           link: "https://www.youtube.com/@wondermayank" },
+    { icon: "😂", title: "WonderAllComedy",      desc: "Comedy videos — skits, funny moments, and pure entertainment.",     link: "https://www.youtube.com/@ThundercomedyOfficial" },
+    { icon: "📚", title: "ThunderStudy",         desc: "Study things — CBSE, CUET, notes, and exam prep.",                  link: "https://www.youtube.com/@THUNDERSTUDY_OFFICIAL" },
+    { icon: "🎮", title: "Thunder Gaming X",     desc: "Gaming videos — live streams, gameplay, and reviews.",              link: "https://www.youtube.com/@Thunderxgaminglive" },
+    { icon: "🔥", title: "WM Roast",             desc: "Friendly roast — lighthearted fun and roast-style content.",        link: "https://www.youtube.com/@wondermayank_roast" },
+    { icon: "💡", title: "ThunderTechnology",    desc: "Tech & unboxing — gadget reviews and technology deep-dives.",       link: "https://www.youtube.com/@Thundertechnologyofficial" },
+    { icon: "🛠️", title: "WM Creator",           desc: "Helpful and coding — tutorials, creator tips, and dev content.",   link: "https://www.youtube.com/@Wondermayank_creators" }
+];
+
+const igChannels = [
+    { icon: "🌟", title: "@WONDERMAYANK",          desc: "Main Instagram — daily life, highlights, and updates.",            link: "https://www.instagram.com/WODERMAYANK" },
+    { icon: "😂", title: "@WONDER COMEDY",          desc: "Comedy reels — funny moments and entertaining clips.",             link: "https://www.instagram.com/WONDERALL.COMEDY" },
+    { icon: "🎮", title: "@THUNDER GAMING",         desc: "Gaming clips, highlights, and live gaming updates.",               link: "https://www.instagram.com/THUNDERXGAMINGLIVE" },
+    { icon: "💡", title: "@THUNDER TECHNOLOGY",     desc: "Tech news, gadget unboxings, and product drops.",                  link: "https://www.instagram.com/THUNDERTECHNOLOGYOFFICIAL" },
+    { icon: "⭐", title: "@THUNDER RECOMMENDATION", desc: "Handpicked picks — products, apps, and lifestyle finds.",          link: "https://www.instagram.com/THUNDERRECOMMENDATION" }
+];
+
+/* Render */
+document.getElementById('project-list').innerHTML = mainProjectsData.map(p => `
+    <div class="project-card">
+        <span class="project-visual">${p.visualTag}</span>
+        <span class="proj-icon">${p.icon}</span>
+        <h3>${p.title}</h3>
+        <p>${p.desc}</p>
+        <a href="${p.link}" class="open-btn" target="_blank">Open Tool →</a>
+    </div>
+`).join('');
+
+document.getElementById('hubs-grid').innerHTML = hubsData.map(h => `
+    <a href="${h.link}" class="hub-card" target="_blank">
+        <div class="hub-top">
+            <div class="hub-icon-wrap">${h.icon}</div>
+            <span class="hub-platform-badge">${h.badge}</span>
+        </div>
+        <h3>${h.title}</h3>
+        <p>${h.desc}</p>
+        <div class="hub-visit-btn">Visit Hub <span class="arrow-circle">↗</span></div>
+    </a>
+`).join('');
+
+document.getElementById('yt-grid').innerHTML = ytChannels.map(ch => `
+    <a href="${ch.link}" class="channel-card" target="_blank">
+        <span class="ch-platform-tag yt">YouTube</span>
+        <span class="ch-card-icon">${ch.icon}</span>
+        <h3>${ch.title}</h3>
+        <p>${ch.desc}</p>
+        <div class="ch-open-btn">Visit Channel →</div>
+    </a>
+`).join('');
+
+document.getElementById('ig-grid').innerHTML = igChannels.map(ch => `
+    <a href="${ch.link}" class="channel-card" target="_blank">
+        <span class="ch-platform-tag ig">Instagram</span>
+        <span class="ch-card-icon">${ch.icon}</span>
+        <h3>${ch.title}</h3>
+        <p>${ch.desc}</p>
+        <div class="ch-open-btn">View Profile →</div>
+    </a>
+`).join('');
+
+/* Cursor glow */
+const glow = document.getElementById('cursor-glow');
+document.addEventListener('mousemove', e => {
+    glow.style.left = e.clientX + 'px';
+    glow.style.top  = e.clientY + 'px';
+});
+
+/* Tilt on all card types */
+function addTilt(sel) {
+    document.querySelectorAll(sel).forEach(card => {
+        card.addEventListener('mousemove', e => {
+            const r = card.getBoundingClientRect();
+            const rx = (e.clientY - r.top  - r.height / 2) / 18;
+            const ry = (r.width  / 2 - (e.clientX - r.left)) / 18;
+            card.style.transform = `perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-10px)`;
+        });
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = `perspective(1000px) rotateX(0) rotateY(0) translateY(0)`;
+        });
+    });
+}
+addTilt('.project-card');
+addTilt('.hub-card');
+addTilt('.channel-card');
+</script>
+</body>
+</html>
