@@ -1,21 +1,101 @@
-# 💫 About Me:
-🔭 I’m currently working on<br>Building modern educational platforms, student tools, CBT mock tests, and creative web projects focused on free learning and accessibility.<br><br>👯 I’m looking to collaborate on<br>Open-source education projects, web development, UI/UX design, student communities, and innovative digital tools.<br><br>🤝 I’m looking for help with<br>Scaling educational platforms, improving backend systems, SEO, and creating better learning experiences for students.<br><br>🌱 I’m currently learning<br>Advanced frontend development, full-stack web technologies, AI tools, performance optimization, and modern UI animations.<br><br>💬 Ask me about<br>Web development, GitHub Pages, educational websites, design systems, productivity tools, branding, and creative coding ideas.<br><br>⚡ Fun fact<br>I love turning random ideas into real websites at midnight with music, coffee, and way too many browser tabs open.<br>
+<div align="center">
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"><img width="100%" src="assets/banner-light.svg" alt="Mayank Shrivastava, Founder and Developer, Edtech and Web Applications"></picture>
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/wondermayank) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/wondermayank) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)]([https://pinterest.com/wondermayank](https://in.pinterest.com/wondermayank_official) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/wondermayank) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/wondermayank) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/wonder_mayank) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@wondermayank) 
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=900&color=8B9CF5&center=true&vCenter=true&width=760&height=44&lines=Free+exam-prep+tools+for+Indian+students;ThunderStudy+%7C+ThunderTest+%7C+ThunderStudy+AI;Turning+random+ideas+into+real+websites;Designer+%2B+Developer+from+Sironj,+MP" alt="Typing animation">
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Glitch](https://img.shields.io/badge/glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Alpine.js](https://img.shields.io/badge/alpinejs-white.svg?style=for-the-badge&logo=alpinedotjs&logoColor=%238BC0D0) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white) ![Nx](https://img.shields.io/badge/nx-143055?style=for-the-badge&logo=nx&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge) ![Xamarin](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![PocketBase](https://img.shields.io/badge/pocketbase-%23b8dbe4.svg?style=for-the-badge&logo=Pocketbase&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Audition](https://img.shields.io/badge/Adobe%20Audition-9999FF.svg?style=for-the-badge&logo=Adobe%20Audition&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Adobe Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF61F6.svg?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Fonts](https://img.shields.io/badge/Adobe%20Fonts-000B1D.svg?style=for-the-badge&logo=Adobe%20Fonts&logoColor=white) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Affinity Designer](https://img.shields.io/badge/affinity%20desginer-%231B72BE.svg?style=for-the-badge&logo=affinity-designer&logoColor=white) ![Affinity Photo](https://img.shields.io/badge/affinityphoto-%237E4DD2.svg?style=for-the-badge&logo=affinity-photo&logoColor=white) ![Aseprite](https://img.shields.io/badge/Aseprite-FFFFFF?style=for-the-badge&logo=Aseprite&logoColor=#7D929E) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Clip Studio Paint](https://img.shields.io/badge/ClipStudioPaint-%23CFD3D3.svg?style=for-the-badge&logo=ClipStudioPaint&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF) ![Sketch Up](https://img.shields.io/badge/SketchUp-005F9E?style=for-the-badge&logo=sketchup&logoColor=white) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![Rhinoceros](https://img.shields.io/badge/Rhinoceros-801010?style=for-the-badge&logo=rhinoceros&logoColor=white) ![Proto.io](https://img.shields.io/badge/Proto.io-161637?style=for-the-badge&logo=proto.io&logoColor=00e5ff) ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B) ![Invision](https://img.shields.io/badge/invision-FF3366?style=for-the-badge&logo=invision&logoColor=white) ![Inkscape](https://img.shields.io/badge/Inkscape-e0e0e0?style=for-the-badge&logo=inkscape&logoColor=080A13) ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![CloudBees](https://img.shields.io/badge/CloudBees-1997B5&?logo=cloudbees&logoColor=white&style=for-the-badge) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c) ![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=for-the-badge&logo=Meta&logoColor=white) ![Xbox](https://img.shields.io/badge/xbox-%23107C10.svg?style=for-the-badge&logo=xbox&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=wondermayank&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=wondermayank&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=wondermayank&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<a href="https://wondermayank.in"><img src="https://img.shields.io/badge/Website-5D79B3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a> <a href="mailto:contact@wondermayank.indevs.in"><img src="https://img.shields.io/badge/Email-9A7AFB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="https://youtube.com/@wondermayank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a> <a href="https://instagram.com/wondermayank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a> <a href="https://t.me/wondermayank"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a> <a href="https://x.com/wondermayankx"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a> <a href="https://reddit.com/user/wondermayankx"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"></a> <a href="https://in.pinterest.com/wondermayank_official"><img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest"></a> <a href="https://facebook.com/wondermayank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a> <a href="https://quora.com/profile/wondermayank"><img src="https://img.shields.io/badge/Quora-B92B27?style=for-the-badge&logo=quora&logoColor=white" alt="Quora"></a>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=wondermayank&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
 
----
-[![](https://komarev.com/ghpvc/?username=wondermayank&icon=1&color=0)](https://visitcount.itsvg.in)
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-about-light.svg"><img src="assets/h-about-light.svg" alt="About Me" width="380"></picture>
+
+<table>
+<tr>
+<td valign="top">
+
+Hi, I'm **Mayank Shrivastava** from **Sironj, Madhya Pradesh**. I'm an independent developer and creator, and since 2018 I've been building free web tools that people can use without signing up or paying.
+
+Today that means **[ThunderStudy](https://thunderstudy.indevs.in)** and **[ThunderTest](https://thundertest.indevs.in)**, exam-prep platforms for CUET, JEE, NEET, SSC, Banking, CAT and CLAT students, plus a hub of utility tools and creative experiments at **[wondermayank.in](https://wondermayank.in)**. I design everything in my own soft clay UI style and ship fast, usually at midnight, with music on and too many browser tabs open.
+
+**Building:** educational platforms, CBT mock tests, student tools and AI study helpers
+**Learning:** advanced frontend, full-stack web, AI tools, performance and UI animation
+**Open to:** open-source education projects, UI/UX design, SEO, and computer teacher or operator roles
+**Ask me about:** web development, GitHub Pages, design systems, branding and creative coding
+
+</td>
+<td width="260" align="center" valign="middle">
+
+<img src="assets/mascot.svg" alt="Tiny, the ThunderStudy mascot" width="240">
+
+</td>
+</tr>
+</table>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-projects-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-projects-light.svg"><img src="assets/h-projects-light.svg" alt="Featured Projects" width="380"></picture>
+
+<table>
+<tr>
+<td><a href="https://thunderstudy.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-study-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/c-study-light.svg"><img src="assets/c-study-light.svg" alt="ThunderStudy" width="400"></picture></a></td>
+<td><a href="https://thundertest.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-test-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/c-test-light.svg"><img src="assets/c-test-light.svg" alt="ThunderTest" width="400"></picture></a></td>
+</tr>
+<tr>
+<td><a href="https://ai.thunderstudy.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-ai-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/c-ai-light.svg"><img src="assets/c-ai-light.svg" alt="ThunderStudy AI" width="400"></picture></a></td>
+<td><a href="https://project.wondermayank.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-hub-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/c-hub-light.svg"><img src="assets/c-hub-light.svg" alt="Project Hub" width="400"></picture></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/wondermayank/logos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-logos-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/c-logos-light.svg"><img src="assets/c-logos-light.svg" alt="Logos" width="400"></picture></a></td>
+<td><a href="https://project.wondermayank.in/typing/hindi/hindi_typing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-typing-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/c-typing-light.svg"><img src="assets/c-typing-light.svg" alt="Hindi Typing" width="400"></picture></a></td>
+</tr>
+</table>
+
+**Exam hubs:** [CUET](https://thundertest.indevs.in/cuet) | [JEE and NEET](https://thundertest.indevs.in/jee-neet) | [SSC](https://thundertest.indevs.in/ssc) | [Banking](https://thundertest.indevs.in/banking) | [CAT](https://thundertest.indevs.in/cat) | [CLAT](https://thundertest.indevs.in/clat) | [NDA](https://thundertest.indevs.in/nda)
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-stack-light.svg"><img src="assets/h-stack-light.svg" alt="Tech Stack" width="380"></picture>
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,js,vue,cpp,c,java,firebase,supabase,mongodb,mysql,cloudflare,vercel,netlify,gcp,git,github,githubactions,figma,blender,ps,ai,ae,pr&perline=12&theme=dark"><img src="https://skillicons.dev/icons?i=html,css,js,vue,cpp,c,java,firebase,supabase,mongodb,mysql,cloudflare,vercel,netlify,gcp,git,github,githubactions,figma,blender,ps,ai,ae,pr&perline=12&theme=light" alt="Tech stack" width="720"></picture>
+</p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-stats-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-stats-light.svg"><img src="assets/h-stats-light.svg" alt="GitHub Stats" width="380"></picture>
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api?username=wondermayank&title_color=B196FB&text_color=C7C0E0&icon_color=9A7AFB&bg_color=221D3C&border_color=2E2650&include_all_commits=true&count_private=true&show_icons=true"><img src="https://github-readme-stats.shion.dev/api?username=wondermayank&title_color=5D79B3&text_color=4F5D75&icon_color=70A1FC&bg_color=F8FAFF&border_color=DCE8FF&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub stats" width="410"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api/top-langs/?username=wondermayank&title_color=B196FB&text_color=C7C0E0&icon_color=9A7AFB&bg_color=221D3C&border_color=2E2650&include_all_commits=true&count_private=true&layout=compact"><img src="https://github-readme-stats.shion.dev/api/top-langs/?username=wondermayank&title_color=5D79B3&text_color=4F5D75&icon_color=70A1FC&bg_color=F8FAFF&border_color=DCE8FF&include_all_commits=true&count_private=true&layout=compact" alt="Top languages" width="410"></picture>
+<br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=wondermayank&background=221D3C&ring=9A7AFB&fire=B196FB&currStreakNum=F1EEFB&sideNums=F1EEFB&currStreakLabel=B196FB&sideLabels=C7C0E0&dates=8E86AC&border=2E2650"><img src="https://streak-stats.demolab.com/?user=wondermayank&background=F8FAFF&ring=70A1FC&fire=5D79B3&currStreakNum=26324A&sideNums=26324A&currStreakLabel=5D79B3&sideLabels=4F5D75&dates=6B6485&border=DCE8FF" alt="GitHub streak" width="830"></picture>
+</p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-snake-light.svg"><img src="assets/h-snake-light.svg" alt="Contribution Snake" width="380"></picture>
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wondermayank/wondermayank/output/github-snake-dark.svg"><img src="https://raw.githubusercontent.com/wondermayank/wondermayank/output/github-snake.svg" alt="Contribution snake animation" width="100%"></picture>
+</p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-posts-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-posts-light.svg"><img src="assets/h-posts-light.svg" alt="Latest Posts" width="380"></picture>
+
+<!-- BLOG-POST-LIST:START -->
+- [Visit the ThunderStudy blog](https://blog.thunderstudy.indevs.in)
+<!-- BLOG-POST-LIST:END -->
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-connect-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-connect-light.svg"><img src="assets/h-connect-light.svg" alt="Connect" width="380"></picture>
+
+Got an idea, a collaboration, or a file request? Reach me at **[contact@wondermayank.indevs.in](mailto:contact@wondermayank.indevs.in)** or through the [contact page](https://wondermayank.in/contact). Free tools stay free, and your feedback makes them better.
+
+<p align="center">
+<a href="https://visitcount.itsvg.in"><img src="https://komarev.com/ghpvc/?username=wondermayank&icon=1&color=70A1FC&label=PROFILE+VIEWS&style=flat-square" alt="Profile views"></a>
+</p>
