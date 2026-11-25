@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 72" width="700" height="72" role="heading" aria-label="Let's Connect">
+<text x="2" y="44" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#F1EEFB">Let's <tspan fill="#9A7AFB">Connect</tspan></text>
+<rect x="2" y="56" width="0" height="5" rx="2.5" fill="#9A7AFB"><animate attributeName="width" from="0" to="64" dur=".9s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+</svg>
