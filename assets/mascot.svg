@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Mascot placeholder">
-<defs><filter id="c" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="8" dy="8" stdDeviation="6" flood-color="#6E8CC8" flood-opacity=".4"/><feDropShadow dx="-8" dy="-8" stdDeviation="6" flood-color="#fff" flood-opacity=".8"/></filter></defs>
-<rect x="30" y="30" width="260" height="260" rx="72" fill="#DCE8FF" filter="url(#c)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/></rect>
-<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/>
-<path d="M176 92L120 178h38l-8 50 60-90h-38z" fill="none" stroke="#5D79B3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></g>
-</svg>
