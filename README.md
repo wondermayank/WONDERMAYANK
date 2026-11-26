@@ -125,7 +125,9 @@ The Thunder family is my free exam-prep ecosystem for Indian students. **Thunder
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-posts-dark.svg"><img src="assets/h-posts-light.svg" alt="Latest Posts" width="380"></picture>
 
-<!-- BLOG-POST-LIST:START -->- [CUET GAT &amp; Current Affairs Notes For CUET FREE](https://blog.thunderstudy.indevs.in/2026/05/cuet-gat-current-affairs-notes-for-cuet.html) - 8 May 2026- [Accountancy Notes For CUET &lpar;chapterwise&rpar;](https://blog.thunderstudy.indevs.in/2026/05/accountancy-notes-for-cuet-chapterwise.html) - 2 May 2026- [Computer Science Notes For CUET Free](https://blog.thunderstudy.indevs.in/2026/04/computer-science-notes-for-cuet-free.html) - 28 Apr 2026- [Physical Education CUET UG 2026 Notes By Thunder](https://blog.thunderstudy.indevs.in/2026/04/physical-education-cuet-ug-2026-notes.html) - 24 Apr 2026- [English CUET CBT Mock Test Free](https://blog.thunderstudy.indevs.in/2026/03/english-cuet-cbt-mock-test-free.html) - 26 Mar 2026<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- [Visit the ThunderStudy blog](https://blog.thunderstudy.indevs.in)
+<!-- BLOG-POST-LIST:END -->
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"><img src="assets/divider-light.svg" alt="" width="100%"></picture></p>
 
