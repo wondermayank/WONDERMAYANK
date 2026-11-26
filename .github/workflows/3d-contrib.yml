@@ -22,7 +22,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: refresh 3D contribution graph"
-          file_pattern: "profile-3d-contrib"
+      - name: Commit and push
+        run: >
+          bash scripts/ci_push.sh
+          "chore: refresh 3D contribution graph"
+          "profile-3d-contrib"

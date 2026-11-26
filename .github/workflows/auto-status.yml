@@ -24,8 +24,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/status.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: refresh live status board"
-          file_pattern: "assets/auto/status-*.svg"
+      - name: Check sites and push
+        run: >
+          bash scripts/ci_push.sh
+          "chore: refresh live status board"
+          "assets/auto/status-light.svg assets/auto/status-dark.svg"
+          "python scripts/status.py"

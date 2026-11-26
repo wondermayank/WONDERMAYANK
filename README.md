@@ -12,13 +12,15 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg"><img src="assets/h-about-light.svg" alt="About Me" width="380"></picture>
 
+<img src="assets/portrait.svg" align="right" width="230" alt="Hand-drawn portrait of Mayank">
+
 Hi, I'm **Mayank Shrivastava** from **Sironj, Madhya Pradesh**. I'm an independent developer and creator, and since 2018 I've been building free web tools that people can use without signing up or paying.
 
 Today that means **[ThunderStudy](https://thunderstudy.indevs.in)** and **[ThunderTest](https://thundertest.indevs.in)**, exam-prep platforms for CUET, JEE, NEET, SSC, Banking, CAT and CLAT students, plus a hub of utility tools and creative experiments at **[wondermayank.in](https://wondermayank.in)**. I design everything in my own soft clay UI style and ship fast, usually at midnight, with music on and too many browser tabs open.
 
 <p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/t-tools-dark.svg"><img src="assets/t-tools-light.svg" alt="800+ free tools built" width="264"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/t-stars-dark.svg"><img src="assets/t-stars-light.svg" alt="800+ GitHub stars" width="264"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/t-since-dark.svg"><img src="assets/t-since-light.svg" alt="Building free tools since 2018" width="264"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/t-hubs-dark.svg"><img src="assets/t-hubs-light.svg" alt="7 exam hubs live" width="264"></picture>
 </p>
 
@@ -31,18 +33,39 @@ Today that means **[ThunderStudy](https://thunderstudy.indevs.in)** and **[Thund
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"><img src="assets/divider-light.svg" alt="" width="100%"></picture></p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-projects-dark.svg"><img src="assets/h-projects-light.svg" alt="Featured Projects" width="380"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-thunder-dark.svg"><img src="assets/h-thunder-light.svg" alt="Thunder Ecosystem" width="380"></picture>
 
 <p align="center">
-<a href="https://thunderstudy.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-study-dark.svg"><img src="assets/c-study-light.svg" alt="ThunderStudy" width="398"></picture></a>
-<a href="https://thundertest.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-test-dark.svg"><img src="assets/c-test-light.svg" alt="ThunderTest" width="398"></picture></a>
-<a href="https://ai.thunderstudy.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-ai-dark.svg"><img src="assets/c-ai-light.svg" alt="ThunderStudy AI" width="398"></picture></a>
-<a href="https://project.wondermayank.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-hub-dark.svg"><img src="assets/c-hub-light.svg" alt="Project Hub" width="398"></picture></a>
-<a href="https://github.com/wondermayank/logos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-logos-dark.svg"><img src="assets/c-logos-light.svg" alt="Logos" width="398"></picture></a>
-<a href="https://project.wondermayank.in/typing/hindi/hindi_typing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-typing-dark.svg"><img src="assets/c-typing-light.svg" alt="Hindi Typing" width="398"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/bolt-dark.svg"><img src="assets/bolt-light.svg" alt="Thunder bolt drawn by a snake" width="300"></picture>
+</p>
+
+The Thunder family is my free exam-prep ecosystem for Indian students. **ThunderStudy** has the notes, PYQs and formulas, **ThunderTest** has the CBT mock tests, **ThunderStudy AI** brings AI chat, mind maps and AI-made mock tests, and **Thunder English** gives fresh English MCQs and one-word practice every day. Around them sit Telegram bots, a daily blog, ThunderDocs and a student community.
+
+<p align="center">
+<a href="https://thunderstudy.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-study-dark.svg"><img src="assets/th-study-light.svg" alt="ThunderStudy" width="398"></picture></a>
+<a href="https://thundertest.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-test-dark.svg"><img src="assets/th-test-light.svg" alt="ThunderTest" width="398"></picture></a>
+<a href="https://ai.thunderstudy.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-ai-dark.svg"><img src="assets/th-ai-light.svg" alt="ThunderStudy AI" width="398"></picture></a>
+<a href="https://thunderenglish.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-english-dark.svg"><img src="assets/th-english-light.svg" alt="Thunder English" width="398"></picture></a>
+<a href="https://wondermayank.in/bots"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-bots-dark.svg"><img src="assets/th-bots-light.svg" alt="Thunder Bots" width="398"></picture></a>
+<a href="https://blog.thunderstudy.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-blog-dark.svg"><img src="assets/th-blog-light.svg" alt="ThunderStudy Blog" width="398"></picture></a>
+<a href="https://aipdf.wondermayank.indevs.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-docs-dark.svg"><img src="assets/th-docs-light.svg" alt="ThunderDocs" width="398"></picture></a>
+<a href="https://t.me/thunderstudy"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/th-tg-dark.svg"><img src="assets/th-tg-light.svg" alt="Telegram Community" width="398"></picture></a>
 </p>
 
 **Exam hubs:** [CUET](https://thundertest.indevs.in/cuet) | [JEE and NEET](https://thundertest.indevs.in/jee-neet) | [SSC](https://thundertest.indevs.in/ssc) | [Banking](https://thundertest.indevs.in/banking) | [CAT](https://thundertest.indevs.in/cat) | [CLAT](https://thundertest.indevs.in/clat) | [NDA](https://thundertest.indevs.in/nda)
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"><img src="assets/divider-light.svg" alt="" width="100%"></picture></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-projects-dark.svg"><img src="assets/h-projects-light.svg" alt="Featured Projects" width="380"></picture>
+
+<p align="center">
+<a href="https://project.wondermayank.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-hub-dark.svg"><img src="assets/c-hub-light.svg" alt="Project Hub" width="398"></picture></a>
+<a href="https://github.com/wondermayank/logos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-logos-dark.svg"><img src="assets/c-logos-light.svg" alt="Logos" width="398"></picture></a>
+<a href="https://project.wondermayank.in/typing/hindi/hindi_typing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-typing-dark.svg"><img src="assets/c-typing-light.svg" alt="Hindi Typing" width="398"></picture></a>
+<a href="https://project.wondermayank.in/fun/Sign_language"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-sign-dark.svg"><img src="assets/c-sign-light.svg" alt="SignLearn" width="398"></picture></a>
+<a href="https://body.wondermayank.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-body-dark.svg"><img src="assets/c-body-light.svg" alt="Body School" width="398"></picture></a>
+<a href="https://festival.wondermayank.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/c-fest-dark.svg"><img src="assets/c-fest-light.svg" alt="Festivals by Tiny" width="398"></picture></a>
+</p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"><img src="assets/divider-light.svg" alt="" width="100%"></picture></p>
 

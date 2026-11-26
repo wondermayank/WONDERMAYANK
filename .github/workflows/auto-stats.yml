@@ -24,15 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/stats.py
+      - name: Build cards and push
         env:
           GH_USER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: python scripts/projects.py
-        env:
-          GH_USER: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: refresh stats cards and recent projects"
-          file_pattern: "README.md assets/auto/stats-*.svg assets/auto/langs-*.svg assets/auto/proj-*.svg"
+        run: >
+          bash scripts/ci_push.sh
+          "chore: refresh stats cards and recent projects"
+          "README.md assets/auto/stats-light.svg assets/auto/stats-dark.svg assets/auto/langs-light.svg assets/auto/langs-dark.svg assets/auto/proj-1-light.svg assets/auto/proj-1-dark.svg assets/auto/proj-2-light.svg assets/auto/proj-2-dark.svg assets/auto/proj-3-light.svg assets/auto/proj-3-dark.svg assets/auto/proj-4-light.svg assets/auto/proj-4-dark.svg"
+          "python scripts/stats.py && python scripts/projects.py"
