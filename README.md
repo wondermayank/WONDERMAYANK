@@ -74,9 +74,9 @@ The Thunder family is my free exam-prep ecosystem for Indian students. **Thunder
 <!-- LATEST-PROJECTS:START -->
 <p align="center">
 <a href="https://github.com/wondermayank/wondercaptions"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/auto/proj-1-dark.svg"><img src="assets/auto/proj-1-light.svg" alt="wondercaptions" width="398"></picture></a>
-<a href="https://github.com/wondermayank/ncert"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/auto/proj-2-dark.svg"><img src="assets/auto/proj-2-light.svg" alt="ncert" width="398"></picture></a>
-<a href="https://make.wondermayank.in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/auto/proj-3-dark.svg"><img src="assets/auto/proj-3-light.svg" alt="website_maker" width="398"></picture></a>
-<a href="https://github.com/wondermayank/team"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/auto/proj-4-dark.svg"><img src="assets/auto/proj-4-light.svg" alt="team" width="398"></picture></a>
+<a href="https://github.com/wondermayank/wonderclip"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/auto/proj-2-dark.svg"><img src="assets/auto/proj-2-light.svg" alt="wonderclip" width="398"></picture></a>
+<a href="https://github.com/wondermayank/ncert"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/auto/proj-3-dark.svg"><img src="assets/auto/proj-3-light.svg" alt="ncert" width="398"></picture></a>
+<a href="https://make.wondermayank.in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/auto/proj-4-dark.svg"><img src="assets/auto/proj-4-light.svg" alt="website_maker" width="398"></picture></a>
 </p>
 <!-- LATEST-PROJECTS:END -->
 
